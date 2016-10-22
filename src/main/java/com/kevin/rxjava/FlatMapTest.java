@@ -1,10 +1,8 @@
 package com.kevin.rxjava;
 
 import rx.Observable;
-import rx.functions.Func1;
 
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * flat map test cases
