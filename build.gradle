@@ -11,10 +11,14 @@ repositories {
 }
 
 dependencies {
-    compile 'io.reactivex:rxjava:1.0.10'
+    compile 'io.reactivex:rxjava:1.2.1'
+    compile 'io.reactivex:rxjava-async-util:0.21.0'
+//    compile 'com.netflix.rxjava:rxjava-async-util:0.20.7'
     compile 'io.vertx:vertx-core:3.0.0'
     compile 'io.vertx:vertx-web:3.0.0'
+    compile 'io.vertx:'
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile 'io.vertx:vertx-unit:3.0.0'
+
 
 }
