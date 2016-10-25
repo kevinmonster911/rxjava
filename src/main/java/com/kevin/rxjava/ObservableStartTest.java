@@ -3,6 +3,8 @@ package com.kevin.rxjava;
 
 import rx.Observable;
 
+import java.util.Arrays;
+
 /**
  * Created by kevin on 16/10/24.
  */
